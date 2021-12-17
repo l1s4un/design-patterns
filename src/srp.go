@@ -68,7 +68,7 @@ func main() {
 	fmt.Println(strings.Join(j.entries, "\n"))
 
 	// separate function
-	//SaveToFile(&j, "journal.txt")
+	SaveToFile(&j, "journal.txt")
 
 	//
 	//p := Persistence{"\n"}
